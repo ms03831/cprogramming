@@ -29,6 +29,7 @@ int main(int argc, char * argv []){
     if (c < 10) {
         printf("The file doesn't have 10 lines\n" );
     }
+    free(line);
     return(0);
 }
 
