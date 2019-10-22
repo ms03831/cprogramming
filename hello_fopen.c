@@ -4,9 +4,9 @@
 
 int main(int argc, char * argv[]){
 
-  FILE * stream = fopen("helloworld.txt", "w");
-
-  fprintf(stream, "Hello World!\n");
-
-  fclose(stream);
+  char * input = malloc(120);
+  printf(">>> ");
+  scanf(input);
+  printf(input);
+  free(input);
 }
